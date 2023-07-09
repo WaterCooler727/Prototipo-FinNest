@@ -1,0 +1,247 @@
+body{
+    background-color: #05000F;
+    height: 100vh;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    border-bottom: solid;
+    border-color: #0E5D1D;
+    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.user{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex: row;
+}
+
+.username{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.gear{
+    margin-right: 10px;
+}
+
+.gear:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+
+.content{
+    display: flex ;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.saldo{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.saldoMoney{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.histo{
+    width: fit-content;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0d501963;
+    border-radius: 10px;
+    background-color: #090118;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.entrando{
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: #0E5D1D;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.entrando:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform .2s;
+    background-color: #120725;
+    border-color: #1d6429;}
+
+.leftEntra{
+    display: flex;
+    flex-direction: row;
+    width: ;
+    padding: 2px;
+    align-items: center;
+}
+
+.iconEntra{
+    display: flex;
+    align-items: center;
+}
+
+.rightEntra{
+    width: 200px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.saindo{
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: #0E5D1D;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.saindo:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform .2s;
+    background-color: #120725;
+    border-color: #1d6429;
+}
+
+.leftSai{
+    display: flex;
+    flex-direction: row;
+    width: ;
+    padding: 2px;
+    align-items: center;
+}
+
+.iconSai{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+.rightSai{
+    width: 200px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+@media (max-width: 450px) {
+    .histo{
+        width: fit-content;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #0d501963;
+        border-radius: 10px;
+        background-color: #090118;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .entrando{
+        width: 300px;
+        height: 50px;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #0E5D1D;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+    }
+    
+    .leftEntra{
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+        align-items: center;
+    }
+    
+    .iconEntra{
+        display: flex;
+        align-items: center;
+    }
+    
+    .rightEntra{
+        width: 200px;
+        text-align: end;
+        padding-right: 10px;
+    }
+    
+    .saindo{
+        width: 300px;
+        height: 50px;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 15px;
+        border-color: #0E5D1D;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+    }
+    
+    .leftSai{
+        display: flex;
+        flex-direction: row;
+        width: ;
+        padding: 2px;
+        align-items: center;
+    }
+    
+    .iconSai{
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 4px;
+    }
+    
+    .rightSai{
+        width: 200px;
+        text-align: end;
+        padding-right: 10px;
+    }
+}
